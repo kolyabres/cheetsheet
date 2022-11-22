@@ -3,5 +3,5 @@
 ## mysql dump
 
 ```
-mysqldump -u [user name] –p [password] [options] [database_name] [tablename] > dumpfilename.sql
+mysqldump –p -u [user name]   [database_name] [tablename] > dumpfilename.sql
 ```
