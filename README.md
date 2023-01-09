@@ -3,7 +3,7 @@
 ## mysql dump
 
 ```
-mysqldump –p -u [user name]   [database_name] [tablename] > dumpfilename.sql
+mysqldump -u [user name] –p [database_name] [tablename] > dumpfilename.sql
 ```
 
 ## download via ssh
