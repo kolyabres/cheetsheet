@@ -21,3 +21,13 @@ scp -i key_file.pem your_username@remotehost.edu:/remote/dir/foobar.txt /local/d
 
 ## macos php versions
 https://www.markhesketh.com/switching-multiple-php-versions-on-macos/
+
+```
+brew tap shivammathur/php
+brew install shivammathur/php/php@7.4
+
+
+brew unlink php@5.6
+brew link php@7.4 --force
+```
+
