@@ -17,3 +17,7 @@ scp -i key_file.pem your_username@remotehost.edu:/remote/dir/foobar.txt /local/d
 
 ## ssh keygen
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+
+## macos php versions
+https://www.markhesketh.com/switching-multiple-php-versions-on-macos/
