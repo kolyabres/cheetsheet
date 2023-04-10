@@ -30,6 +30,6 @@ brew install shivammathur/php/php@7.4
 
 
 brew unlink php@5.6
-brew link php@7.4 --force
+brew link --overwrite php@7.4
 ```
 
